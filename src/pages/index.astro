@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Chris Bolton';
+const description = 'Your local software engineer, travel bug, creative, and entrepreneur.';
+const permalink = Astro.site.href;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink}>
+    <div class="bg" id="bg-1">
+        <div class="inner-container bg">
+            <div id="top-content">
+                <div class="name">Chris Bolton</div>
+                <div class="tagline">Your local software engineer, travel bug, creative, and entrepreneur.</div>
+                <div class="social">
+                    <a href="https://twitter.com/thepixelmonk" target="_blank"><img src="/assets/images/twitter.png" /></a>
+                    <a href="https://github.com/thepixelmonk" target="_blank"><img src="/assets/images/github.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg" id="bg-2">
+        <div class="content">
+            <p>Hi there. My name is <span>Chris Bolton</span>.</p>
+            <br />
+            <p>I'm a software developer and serial entrepreneur, addicted to making <span>cool stuff </span>with <span>awesome people</span>.</p>
+            <br />
+            <p>
+                Feel free to check out my <a class="bold" href="https://drive.google.com/file/d/1YaonKD2nAWDQm7P0xu6muNLK5KLXF0DS/view?usp=sharing" target="_blank">resume</a> and send me an
+                <a class="bold" href="mailto:hello@bolton.dev">email </a>if you'd like to chat.
+            </p>
+        </div>
+    </div>
+    <div class="bg" id="bg-5">
+        <div class="content">
+            <div class="title">
+                <div class="typcn typcn-user"></div>
+                <div class="text">About me</div>
+            </div>
+            <div id="about">
+                <div class="blurb">
+                    <div class="logo">
+                        <div class="typcn typcn-code"></div>
+                        <div class="text">
+                            Primarily, I do <span>full-stack web development </span>and have dabbled in mobile apps. Broadly, I'm interested in most aspects of software development and hope to get more into
+                            <span>computer science </span>and <span>data mining </span>in the coming months. If that sounds interesting to you, check out what I've been working on recently.
+                        </div>
+                    </div>
+                </div>
+                <div class="blurb">
+                    <div class="logo">
+                        <div class="typcn typcn-social-github"></div>
+                        <div class="text">I'm a bit of an <span>open web evangelist</span>, and an <span>open source fanatic</span>. I believe that open source empowers people to stop complaining and start fixing problems.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</BaseLayout>
