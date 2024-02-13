@@ -10,7 +10,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://bolton.dev',
-  integrations: [mdx(), svelte(), tailwind()],
+  integrations: [mdx(), svelte(), tailwind({nesting:true})],
   markdown: {
     shikiConfig: {
       theme: 'nord'
