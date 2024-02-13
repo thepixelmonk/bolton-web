@@ -1,5 +1,5 @@
 {
-  "name": "bytecraft",
+  "name": "bolton",
   "version": "0.0.1",
   "scripts": {
     "dev": "bunx astro dev",
