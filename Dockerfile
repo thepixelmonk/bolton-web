@@ -1,6 +1,7 @@
 FROM node:lts AS build
 WORKDIR /app
 COPY . .
+COPY . .
 RUN npm i -g bun
 RUN bun i
 RUN bun run build
